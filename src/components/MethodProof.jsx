@@ -80,6 +80,18 @@ export default function MethodProof() {
             </Reveal>
           ))}
         </div>
+
+        <Reveal delay={0.3} className="mt-6 rounded-3xl border-l-4 border-gold bg-surface-2 p-7 sm:p-9">
+          <span className="font-mono text-xs font-medium uppercase tracking-[0.22em] text-gold">
+            Por que isso importa
+          </span>
+          <p className="mt-3 max-w-3xl font-body text-base leading-relaxed text-paper sm:text-lg">
+            Enquanto uma nota fica travada abaixo de 10, é cliente pronto pra comprar escolhendo
+            o concorrente que apareceu primeiro. Presença digital não é sobre estar bonito
+            online — é sobre estar no caminho de quem já decidiu comprar. E isso tem solução
+            clara: cada ponto fraco do raio-x vira um passo específico do plano de ação.
+          </p>
+        </Reveal>
       </div>
     </section>
   );
