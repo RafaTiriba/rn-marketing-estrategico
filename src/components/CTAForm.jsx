@@ -29,11 +29,21 @@ function buildWhatsappMessage(data) {
 export default function CTAForm() {
   const [data, setData] = useState(initialState);
   const [sent, setSent] = useState(false);
+  const [fichaError, setFichaError] = useState(false);
 
   const update = (field) => (e) => setData((d) => ({ ...d, [field]: e.target.value }));
 
+  const selectFicha = (option) => {
+    setData((d) => ({ ...d, temFichaGoogle: option }));
+    setFichaError(false);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!data.temFichaGoogle) {
+      setFichaError(true);
+      return;
+    }
     const message = buildWhatsappMessage(data);
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, "_blank", "noopener,noreferrer");
     setSent(true);
@@ -133,18 +143,25 @@ export default function CTAForm() {
                     <button
                       key={option}
                       type="button"
-                      onClick={() => setData((d) => ({ ...d, temFichaGoogle: option }))}
+                      onClick={() => selectFicha(option)}
                       aria-pressed={data.temFichaGoogle === option}
                       className={`flex-1 rounded-xl border px-4 py-3 font-body text-sm font-semibold transition-colors ${
                         data.temFichaGoogle === option
                           ? "border-gold bg-gold/12 text-gold"
-                          : "border-hairline bg-surface-2 text-paper-dim"
+                          : fichaError
+                            ? "border-terracotta/60 bg-surface-2 text-paper-dim"
+                            : "border-hairline bg-surface-2 text-paper-dim"
                       }`}
                     >
                       {option}
                     </button>
                   ))}
                 </div>
+                {fichaError ? (
+                  <span className="mt-2 font-body text-xs text-terracotta">
+                    Escolha uma opção pra continuar.
+                  </span>
+                ) : null}
               </Field>
 
               <button
