@@ -38,7 +38,7 @@ export default function MethodProof() {
             Assim é o raio-x que você recebe
           </h2>
           <p className="mt-4 font-body text-base leading-relaxed text-paper-dim">
-            Cada canal analisado recebe uma nota e um diagnóstico honesto — pontos fortes,
+            Cada canal analisado recebe uma nota e um diagnóstico honesto, com pontos fortes,
             pontos fracos e o que fazer a respeito. Esta é uma amostra real da leitura que
             preparamos para o seu negócio.
           </p>
@@ -81,16 +81,16 @@ export default function MethodProof() {
           ))}
         </div>
 
-        <Reveal delay={0.3} className="mt-6 rounded-3xl border-l-4 border-gold bg-surface-2 p-7 sm:p-9">
-          <span className="font-mono text-xs font-medium uppercase tracking-[0.22em] text-gold">
-            Por que isso importa
-          </span>
-          <p className="mt-3 max-w-3xl font-body text-base leading-relaxed text-paper sm:text-lg">
-            Enquanto uma nota fica travada abaixo de 10, é cliente pronto pra comprar escolhendo
-            o concorrente que apareceu primeiro. Presença digital não é sobre estar bonito
-            online — é sobre estar no caminho de quem já decidiu comprar. E isso tem solução
-            clara: cada ponto fraco do raio-x vira um passo específico do plano de ação.
+        <Reveal delay={0.3} className="mt-12 flex flex-col items-center text-center">
+          <p className="max-w-md font-body text-lg text-paper">
+            Você recebe uma análise prática, sem compromisso e sem enrolação.
           </p>
+          <a
+            href="#diagnostico"
+            className="mt-6 inline-flex items-center justify-center rounded-full bg-gold px-7 py-4 font-body text-[15px] font-bold uppercase tracking-wide text-void shadow-[0_8px_30px_-8px_rgba(201,162,78,0.6)] transition-transform hover:scale-[1.03] active:scale-[0.98]"
+          >
+            Quero meu diagnóstico
+          </a>
         </Reveal>
       </div>
     </section>

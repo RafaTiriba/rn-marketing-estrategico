@@ -1,14 +1,6 @@
-import { Camera, MapPin, Megaphone, Search } from "lucide-react";
 import Logo from "./Logo";
 import GaugeArc from "./GaugeArc";
 import Reveal from "./Reveal";
-
-const CHANNELS = [
-  { icon: Camera, label: "Instagram" },
-  { icon: MapPin, label: "Google Meu Negócio" },
-  { icon: Megaphone, label: "Meta Ads" },
-  { icon: Search, label: "Google Ads" },
-];
 
 export default function Hero() {
   return (
@@ -33,31 +25,20 @@ export default function Hero() {
               Diagnóstico digital gratuito
             </span>
             <h1 className="mt-5 font-display text-[2.5rem] font-semibold leading-[1.08] text-paper sm:text-5xl md:text-[3.4rem]">
-              Sua empresa está sendo encontrada{" "}
-              <span className="text-terracotta">menos do que deveria</span>.
+              Seu negócio pode estar{" "}
+              <span className="text-terracotta">perdendo clientes todos os dias</span> sem
+              você perceber.
             </h1>
             <p className="mt-6 max-w-md font-body text-lg leading-relaxed text-paper-dim">
-              Descubra exatamente onde, com um diagnóstico completo e gratuito.
+              Descubra gratuitamente onde estão as falhas no seu Instagram, Google e anúncios.
             </p>
 
             <a
               href="#diagnostico"
               className="mt-8 inline-flex items-center justify-center rounded-full bg-gold px-7 py-4 font-body text-[15px] font-bold uppercase tracking-wide text-void shadow-[0_8px_30px_-8px_rgba(201,162,78,0.6)] transition-transform hover:scale-[1.03] active:scale-[0.98]"
             >
-              Quero Receber meu Diagnóstico agora
+              Quero meu diagnóstico gratuito
             </a>
-
-            <div className="mt-10 flex flex-wrap gap-x-6 gap-y-3">
-              {CHANNELS.map(({ icon: Icon, label }) => (
-                <span
-                  key={label}
-                  className="inline-flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.1em] text-paper-dim"
-                >
-                  <Icon size={14} className="text-teal" strokeWidth={2} />
-                  {label}
-                </span>
-              ))}
-            </div>
           </Reveal>
 
           <Reveal delay={0.15} className="flex justify-center md:justify-end">

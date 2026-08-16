@@ -30,6 +30,10 @@ export default function About() {
             <h2 className="mt-3 font-display text-2xl font-semibold text-paper sm:text-3xl">
               Rafael Nogueira
             </h2>
+            <p className="mt-4 max-w-xl font-body text-lg leading-relaxed text-paper">
+              Marketing não é sobre postar por postar. É sobre entender onde sua empresa
+              está, onde quer chegar e construir uma estratégia para chegar até lá.
+            </p>
             <p className="mt-3 max-w-xl font-body text-[15px] leading-relaxed text-paper-dim">
               Gestor de tráfego pago, especialista em marketing digital para negócios locais,
               certificado pelo Google e especialista em Inteligência Artificial aplicada a

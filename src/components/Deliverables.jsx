@@ -8,7 +8,7 @@ const ITEMS = [
     title: "Tráfego Pago",
     tag: "Meta Ads e Google Ads",
     description:
-      "Gestão completa de campanhas com foco em atrair clientes prontos para comprar — segmentação por região, criativos testados e otimização contínua baseada em dados reais. Relatórios simples de acompanhar.",
+      "Campanhas segmentadas por região, com criativos testados e otimização contínua baseada em dados reais.",
   },
   {
     icon: MessageCircle,
@@ -16,7 +16,7 @@ const ITEMS = [
     title: "Social Media",
     tag: "Instagram e Facebook",
     description:
-      "Gestão de conteúdo estratégico — planejamento editorial, produção de posts e stories, organização de destaques, ações para aumentar engajamento real (comentários, salvamentos, compartilhamentos).",
+      "Planejamento de conteúdo, produção de posts e stories, e ações para aumentar o engajamento real.",
   },
   {
     icon: MapPin,
@@ -24,7 +24,7 @@ const ITEMS = [
     title: "Google Meu Negócio",
     tag: "SEO local",
     description:
-      'Otimização completa da ficha para aparecer nas buscas locais ("perto de mim") — SEO local, fotos profissionais, gestão de avaliações, ativação de botão de contato direto, publicações recorrentes.',
+      'Otimização da ficha para aparecer nas buscas locais ("perto de mim"), com SEO local, fotos profissionais e gestão de avaliações.',
   },
   {
     icon: LayoutTemplate,
@@ -32,7 +32,7 @@ const ITEMS = [
     title: "Criação de Landing Pages e Sites",
     tag: "Conversão",
     description:
-      "Páginas de conversão focadas em objetivo único (capturar lead, agendar visita, gerar contato via WhatsApp) — mobile-first, copy estratégico.",
+      "Páginas com objetivo único: capturar lead, agendar visita ou gerar contato via WhatsApp.",
   },
   {
     icon: Bot,
@@ -40,7 +40,7 @@ const ITEMS = [
     title: "Automações com IA",
     tag: "Atendimento e qualificação",
     description:
-      "Fluxos automatizados de atendimento e qualificação de leads (WhatsApp, formulários), reduzindo tempo de resposta e filtrando quem está pronto para comprar.",
+      "Atendimento automatizado que qualifica leads e reduz o tempo de resposta.",
   },
 ];
 

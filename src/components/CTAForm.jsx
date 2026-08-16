@@ -57,11 +57,10 @@ export default function CTAForm() {
             Vamos começar
           </span>
           <h2 className="mt-4 font-display text-3xl font-semibold leading-tight text-paper sm:text-4xl">
-            Quero Receber meu Diagnóstico agora
+            Antes de investir mais em marketing, descubra onde você está perdendo dinheiro.
           </h2>
           <p className="mx-auto mt-4 max-w-lg font-body text-base leading-relaxed text-paper-dim">
-            Preencha os dados abaixo e eu preparo, sem custo, a análise completa do seu
-            Instagram, Google Meu Negócio e Meta Ads.
+            Solicite gratuitamente seu diagnóstico digital.
           </p>
         </Reveal>
 
@@ -72,7 +71,7 @@ export default function CTAForm() {
                 Prontinho, quase lá!
               </p>
               <p className="mt-2 font-body text-sm leading-relaxed text-paper-dim">
-                Abrimos o WhatsApp com seus dados preenchidos — é só confirmar o envio da
+                Abrimos o WhatsApp com seus dados preenchidos. É só confirmar o envio da
                 mensagem por lá.
               </p>
             </div>
@@ -166,9 +165,9 @@ export default function CTAForm() {
 
               <button
                 type="submit"
-                className="mt-2 inline-flex items-center justify-center rounded-full bg-gold px-7 py-4 font-body text-[15px] font-bold text-void shadow-[0_8px_30px_-8px_rgba(201,162,78,0.6)] transition-transform hover:scale-[1.02] active:scale-[0.98] sm:col-span-2"
+                className="mt-2 inline-flex items-center justify-center rounded-full bg-gold px-7 py-4 font-body text-[15px] font-bold uppercase tracking-wide text-void shadow-[0_8px_30px_-8px_rgba(201,162,78,0.6)] transition-transform hover:scale-[1.02] active:scale-[0.98] sm:col-span-2"
               >
-                Enviar e receber meu diagnóstico
+                Quero meu diagnóstico
               </button>
             </form>
           )}
