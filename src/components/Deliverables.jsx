@@ -51,7 +51,7 @@ const ACCENTS = {
 
 export default function Deliverables() {
   return (
-    <section className="relative bg-surface py-20 md:py-28">
+    <section className="relative bg-surface py-12 md:py-16">
       <div className="mx-auto max-w-6xl px-6 sm:px-8">
         <Reveal className="max-w-2xl">
           <span className="font-mono text-xs font-medium uppercase tracking-[0.22em] text-gold">

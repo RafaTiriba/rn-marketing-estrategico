@@ -21,7 +21,7 @@ const PROBLEMS = [
 
 export default function ProblemCards() {
   return (
-    <section className="relative bg-void py-14 md:py-20">
+    <section className="relative bg-void py-8 md:py-12">
       <div className="mx-auto max-w-6xl px-6 sm:px-8">
         <Reveal className="max-w-2xl">
           <span className="font-mono text-xs font-medium uppercase tracking-[0.22em] text-teal">

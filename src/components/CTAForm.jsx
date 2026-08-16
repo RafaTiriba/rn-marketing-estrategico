@@ -50,7 +50,7 @@ export default function CTAForm() {
   };
 
   return (
-    <section id="diagnostico" className="relative bg-surface py-20 md:py-28">
+    <section id="diagnostico" className="relative bg-surface py-12 md:py-16">
       <div className="mx-auto max-w-4xl px-6 sm:px-8">
         <Reveal className="text-center">
           <span className="font-mono text-xs font-medium uppercase tracking-[0.22em] text-gold">

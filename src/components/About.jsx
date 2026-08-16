@@ -5,7 +5,7 @@ const BADGES = ["Certificado Google", "Meta Ads", "SEO Local", "IA aplicada"];
 
 export default function About() {
   return (
-    <section className="relative bg-void py-20 md:py-28">
+    <section className="relative bg-void py-12 md:py-16">
       <div className="mx-auto max-w-6xl px-6 sm:px-8">
         <Reveal className="grid gap-10 md:grid-cols-[auto_1fr] md:items-center md:gap-12">
           <div className="flex justify-center md:justify-start">
